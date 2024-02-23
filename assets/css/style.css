@@ -4,6 +4,7 @@ body {
     margin: 0;
 
 }
+/* NAVEGACION*/
 
 nav {
     background-color: #000;
@@ -12,11 +13,20 @@ nav {
     padding: 20px;
     width: 100%;
 }
+.menunav {
+    list-style: none;
+    padding: 0;
+    top: 0;
+    display: flex;
+}
+
+/*CUERPO*/
 header{
     align-content: center;
     width: 100%!important;
     
 }
+/*BANNER CONTENEDOR*/
 .bannersuperior {
     width: 100%;
     margin: 0;
@@ -50,12 +60,7 @@ header{
     margin-top: 0;
 }
 
-.menunav {
-    list-style: none;
-    padding: 0;
-    top: 0;
-    display: flex;
-}
+
 
 .menu {
     color: aliceblue;
